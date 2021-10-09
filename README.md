@@ -39,3 +39,9 @@ Define a function, ```random_number```, that takes no parameters. The function m
 Calling the function multiple times should (usually) return different numbers.
 
 For example, calling ```random_number()``` some times might first return ```42```, then ```63```, then ```1```.
+
+## Challenge 5: Type check
+
+Write a function named ```only_ints``` that takes two parameters. Your function should return ```True``` if both parameters are integers, and ```False``` otherwise.
+
+For example, calling ```only_ints(1, 2)``` should return ```True```, while calling ```only_ints("a", 1)``` should return ```False```.
