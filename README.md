@@ -45,3 +45,8 @@ For example, calling ```random_number()``` some times might first return ```42``
 Write a function named ```only_ints``` that takes two parameters. Your function should return ```True``` if both parameters are integers, and ```False``` otherwise.
 
 For example, calling ```only_ints(1, 2)``` should return ```True```, while calling ```only_ints("a", 1)``` should return ```False```.
+## Challenge 6: Double Letters
+
+The goal of this challenge is to analyze a string to check if it contains two of the same letter in a row. For example, the string ```"hello"``` has ```l``` twice in a row, while the string ```"nono"``` does not have two identical letters in a row.
+
+Define a function named ```double_letters``` that takes a single parameter. The parameter is a string. Your function must return ```True``` if there are two identical letters in a row in the string, and ```False``` otherwise.
