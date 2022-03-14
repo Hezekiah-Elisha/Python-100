@@ -1,4 +1,5 @@
 def flatten(array):
+    arr = []
     for x in range(len(array)):
         for i in range(len(array[x])):
             arr.append(array[x][i])
