@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def flatten(array):
     arr = []
     for x in range(len(array)):
@@ -6,4 +7,5 @@ def flatten(array):
 
     return arr
 
-print(flatten([[7, 8], [3,4]]))
+
+print(flatten([[7, 8], [3, 4]]))

@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def double_letters(name):
     new_string = list(name)
     sm = False
@@ -17,4 +18,6 @@ def double_letters(name):
     #     return False
     # else:
     return sm
+
+
 print(double_letters('aa'))

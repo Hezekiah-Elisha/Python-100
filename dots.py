@@ -1,8 +1,9 @@
 def add_dots(name):
     return ".".join(name)
 
+
 def remove_dots(name):
-    return name.replace(".","")
+    return name.replace(".", "")
 
 
 add_dots("hezekiah")
