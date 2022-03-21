@@ -159,3 +159,16 @@ Write a function named ```palindrome``` that takes a single string as its parame
 Define a function named ```up_down``` that takes a single number as its parameter. Your function return a tuple containing two numbers; the first should be one lower than the parameter, and the second should be one higher.
 
 For example, calling ```up_down(5)``` should return ```(4, 6)```.
+
+
+## Challenge 16: Consecutive zeros
+
+The goal of this challenge is to analyze a binary string consisting of only zeros and ones. Your code should find the biggest number of consecutive zeros in the string. For example, given the string:
+
+```
+"1001101000110"
+```
+
+The biggest number of consecutive zeros is 3.
+
+Define a function named ```consecutive_zeros``` that takes a single parameter, which is the string of zeros and ones. Your function should return the number described above.
