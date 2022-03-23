@@ -172,3 +172,7 @@ The goal of this challenge is to analyze a binary string consisting of only zero
 The biggest number of consecutive zeros is 3.
 
 Define a function named ```consecutive_zeros``` that takes a single parameter, which is the string of zeros and ones. Your function should return the number described above.
+
+## Challenge 17: GCD with Python
+
+USe a specific algorithm to calculate the ```gcd``` of some numbers, for example ```gcd(34, 64)```.
