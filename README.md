@@ -176,3 +176,17 @@ Define a function named ```consecutive_zeros``` that takes a single parameter, w
 ## Challenge 17: GCD with Python
 
 USe a specific algorithm to calculate the ```gcd``` of some numbers, for example ```gcd(34, 64)```.
+
+## Challenge 18: Greedy algorithm
+
+Here in this challenge on ```greedy.py``` file, I exapounded on the greedy algorithm where I did an example of the algorithm; The money change problem. Where, A country has a certain amount of currency levels
+```
+1000, 500, 200, 100, 50, 20, 10, 5, 1
+```
+If the balance is 30, the balance should be ```[20, 10]``` given as an output
+to run it on the terminal, run:
+```
+python3 greedy.py [certain amount]
+```
+
+example is ```python3 greedy.py 234``` where output should be ```[200, 20, 20, 1, 1, 1]```
